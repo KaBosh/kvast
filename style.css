@@ -1,0 +1,304 @@
+body {
+	min-width: 1200px;
+	margin: 0;
+	padding: 0;
+	font-size: 16pt;
+  	line-height: 24px;
+  	font-family: "Arial", sans-serif;
+  	color: #404040;
+  	background-color: white;
+}
+
+.header {
+	height: 550px;
+	padding: 60px 0 0 0;
+	background: url("img/wheat-back.jpg") no-repeat bottom;
+	background-size: cover;
+}
+
+.header .small-container .logo {
+	display: block;
+	float: left;
+	margin: 0 0 125px 0;
+}
+
+.header .small-container .menu-list {
+	display: block;
+	float: right;
+	width: 601px;
+	margin: 10px 0 0 0;
+	list-style: none;
+}
+
+.header .small-container .menu-list .menu-item {
+	display: block;
+	float: left;
+	height: 42px;
+	margin: 0;
+	padding: 15px 0 0 0;
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	cursor: pointer;
+}
+
+.header .small-container .menu-list .menu-item:hover {
+	border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.header .small-container .menu-list .menu-item:hover a {
+	color: #ffcb78;
+}
+
+.header .small-container .menu-list .menu-item:active {
+	border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.header .small-container .menu-list .menu-item:active a {
+	color: rgba(255, 203, 120, 0.3);
+}
+
+.header .small-container .menu-list .menu-space {
+	display: block;
+	float: left;
+	width: 54px;
+	height: 57px;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header .small-container .menu-list .menu-item a {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.header .small-container p {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: #ffffff;
+	cursor: default;
+	clear: both;
+}
+
+.new-items {
+	padding: 92px 0 110px 0;
+	margin: 0;
+}
+
+.new-items h1 {
+	margin: 0 0 101px 0;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.new-items .item {
+	position: relative;
+	float: left;
+	width: 362px;
+	padding: 9px 0 0 37px;
+	margin: 0;
+	border-left: 1px solid #e5e5e5;
+}
+
+.new-items .item .h1 {
+	margin: 0 0 40px 0;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+.new-items .item table {
+	display: block;
+	position: absolute;
+	top: 85px;
+	left: 223px;
+	border-collapse: collapse;
+}
+
+.new-items .item table tr td {
+	height: 40px;
+	padding: 0 0 0 10px;
+	border: 1px solid #e5e5e5;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.new-items .first-item table tr .first-column {
+	width: 67px;
+}
+
+.new-items .first-item table tr .second-column {
+	width: 60px;
+}
+
+.new-items .second-item table tr .first-column {
+	width: 59px;
+}
+
+.new-items .second-item table tr .second-column {
+	width: 68px;
+}
+
+
+.new-items .item .ingredients {
+	position: absolute;
+	top: 165px;
+	left: 223px;
+	width: 150px;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 14px;
+	color: #404040;
+}
+
+.new-items .item img {
+	float: left;
+}
+
+.new-items .item .description {
+	float: left;
+	margin: 0 0 64px 0;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 16px;
+	color: #404040;
+}
+
+.new-items .item .btn {
+	display: block;
+	float: left;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.new-items .item .more-info {
+	width: 142px;
+	height: 36px;
+	padding: 10px 0 0 0;
+	margin: 0 7px 0 0;
+	color: #834700;
+	border: 2px solid #834700;
+}
+
+.new-items .item .more-info:hover {
+	color: #6a3900;
+	border: 2px solid #6a3900;
+}
+
+.new-items .item .more-info:active {
+	color: rgba(106, 57, 0, 0.3);
+	border: 2px solid rgba(106, 57, 0, 0.3);
+}
+
+.new-items .item .buy {
+	width: 109px;
+	height: 38px;
+	padding: 12px 0 0 0;
+	margin: 0 25px 0 0;
+	color: #ffffff;
+	background-color: #834700;
+}
+
+.new-items .item .buy:hover {
+	background-color: #6a3900;
+}
+
+.new-items .item .buy:active {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.new-items .item .price {
+	float: left;
+	height: 38px;
+	padding: 12px 0 0 0;
+	margin: 0;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.features {
+	height: 410px;
+	padding: 0;
+	margin: 0;
+	background-color: #ffcb78;
+}
+
+.features .big-container ul {
+	padding: 0;
+	margin: 0;
+}
+
+.features .big-container ul .feature-item {
+	display: block;
+	float: left;
+	padding: 188px 0 0 0;
+	margin: 0 66px 0 0;
+}
+
+.features .big-container ul .self-brew {
+	background: url(img/icon-brew.png) no-repeat 0 80px;
+}
+
+.features .big-container ul .our-native {
+	margin: 0 0 0 137px;
+	background: url(img/icon-matreshka.png) no-repeat 0 80px;
+}
+
+.features .big-container ul .without-economy {
+	float: right;
+	margin: 0;
+	background: url(img/icon-thumbsup.png) no-repeat 0 80px;
+}
+
+.features .big-container ul .feature-item .h1 {
+	margin: 0 0 26px 0;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.features .big-container ul .feature-item p {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 16px;
+	color: #404040;
+}
+
+.small-container {
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.big-container {
+	position: relative;
+	width: 1011px;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
